@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Gray</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4eb923eb5b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="button_box">
+       <button class="button fas fa-power-off"></button>
+   </div>
+   <div class="button_box">
+       <button class="toggle_box">
+           <input type="checkbox" id="1" name="toggle" value="on">
+           <label for="1" class="toggle"></label>
+           <span class="lamp fas fa-circle"></span>
+       </button>
+   </div>
+   <div class="social_pannel">
+       <div class="social_item fab fa-twitter"></div>
+       <div class="social_item fab fa-instagram"></div>
+       <div class="social_item fab fa-facebook-f"></div>
+       <div class="social_item fab fa-whatsapp"></div>
+   </div>
+   <div class="slider_pannel">
+       <input type="range" min="-50" max="50" value="0" class="slider" id="myRange">
+       <div id="output_slider"></div>
+   </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
